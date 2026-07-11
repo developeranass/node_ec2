@@ -6,7 +6,7 @@ function App() {
   const [message, setMessage] = useState("");
   
   useEffect(()=> {
-    fetch("http://13.201.88.86:4000/api/message")
+    fetch("http://65.2.189.112:4000/api/message")
     .then((res) => res.json())
     .then((data) => setMessage(data.message));
   
@@ -15,7 +15,7 @@ function App() {
   return (
   <>
       <h1>Anas Sartaj</h1>
-      <h2>data from server  {message} </h2>
+      <h2>data from server is comming  {message} </h2>
     </>
   )
 }
