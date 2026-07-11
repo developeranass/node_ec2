@@ -15,7 +15,7 @@ function App() {
   return (
   <>
       <h1>Anas Sartaj</h1>
-      <h2>data from server is comming  {message} </h2>
+      <h2>data from server is comming By Anas  {message} </h2>
     </>
   )
 }
